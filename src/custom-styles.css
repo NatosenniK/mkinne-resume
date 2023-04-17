@@ -125,3 +125,16 @@ body {
 .subhead {
     font-weight: 700;
 }
+@media screen and (max-width: 1199px) {
+    .mb-30-md-down {
+        margin-bottom: 30px;
+    }
+    .profile-picture {
+        min-height: 600px;
+    }
+}
+.profile-picture {
+    background-image: url(./img/profile-picture.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
