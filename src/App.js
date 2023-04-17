@@ -24,10 +24,9 @@ function App() {
               <Profile></Profile>
               <Bio></Bio>
               <Skills></Skills>
-              <Education></Education>
-              <Tools></Tools>
               <Experience></Experience>
-              
+              <Tools></Tools>
+              <Education></Education>
           </Masonry>
         </ResponsiveMasonry>
         <DarkModeToggle />
