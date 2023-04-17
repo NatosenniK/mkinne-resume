@@ -6,7 +6,7 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 // This component represents the dark mode toggle button that changes the background color of the website
 function DarkModeToggle() {
   // Set the initial state of dark mode to off
-  const [isDarkModeOn, setIsDarkModeOn] = useState(false);
+  const [isDarkModeOn, setIsDarkModeOn] = useState(true);
 
   // Use effect hook to update the document body class when the state of dark mode changes
   useEffect(() => {

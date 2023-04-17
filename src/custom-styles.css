@@ -4,7 +4,8 @@
     --btn-color: #604433;
     --btn-color-hover: #422F21;
     --text-color: #25211D;
-    --dark-bkg: #333333;
+    --dark-bkg: #18191a;
+    --dark-card: #242526;
 }
 
 h1, h2, h3 {
@@ -33,6 +34,14 @@ body {
 
 .dark {
     background-color: var(--dark-bkg);
+}
+.dark .secondary {
+    background-color: var(--dark-card);  
+    color: var(--secondary-color); 
+}
+
+.dark .heading {
+    color: var(--primary-color);
 }
 
 .card-bkg {
