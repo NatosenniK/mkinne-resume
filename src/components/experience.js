@@ -8,6 +8,15 @@ export default class Experience extends Component {
             <h2 className='mb-3'>Experience</h2>
             <div className='mb-5'>
                 <div className='d-flex justify-content-between align-items-center mb-3'>
+                    <div className='heading'>LoKation Real Estate</div>
+                    <div className='date'>May 2023 - Present</div>
+                </div>
+                <p className='tool-desc'>As the primary full-time developer in a dynamic tech environment, I am primarily focused on front-end development using React, with growing involvement in back-end development using Java Spring Boot. My role includes designing and implementing API connections, where I create endpoints in the back-end and integrate them through the front-end, under the guidance and review of my manager.</p>
+                <p className='tool-desc'>I played a key role in the launch of our web application, contributing from initial development to deployment. My responsibilities also extend to integrating multiple third-party APIs, such as Stripe and Sage, and developing automated email systems, showcasing my ability to enhance functionality and user experience.</p>
+                <p className='tool-desc'>I frequently engage in problem-solving and developing real-time solutions, demonstrating adaptability and a proactive approach to project management. My position requires continuous learning and adaptation, especially in back-end development, allowing me to progressively expand my skill set while ensuring quality and accuracy through collaborative reviews.</p>
+            </div>
+            <div className='mb-5'>
+                <div className='d-flex justify-content-between align-items-center mb-3'>
                     <div className='heading'>Mediafly</div>
                     <div className='date'>Jan. 2022 - Apr. 2023</div>
                 </div>
