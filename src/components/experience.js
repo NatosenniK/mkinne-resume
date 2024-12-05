@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class Experience extends Component {
-  render() {
+export default function Experience() {
+
     return (
         <div className='col-12'>
           <div className='card-bkg br-25 secondary p-4'>
@@ -40,4 +40,3 @@ export default class Experience extends Component {
         </div>
     )
   }
-}

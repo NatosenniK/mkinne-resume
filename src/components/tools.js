@@ -1,15 +1,17 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class Tools extends Component {
-  render() {
+export default function Tools() {
+
     return (
         <div className='col-12'>
           <div className='card-bkg br-25 secondary p-4'>
             <h2 className='mb-3'>Tools</h2>
             <div className='heading'>React</div>
-            <p className='tool-desc mb-3'>I am familiar with React and have used it to build a variety of web applications, including this resume website. I am comfortable with React's component-based architecture and have experience in using popular libraries and frameworks such as Redux and React Router to build scalable and modular applications. Additionally, I am proficient in using React's JSX syntax to create efficient and maintainable UI code.</p>
+            <p className='tool-desc mb-3'>I have used React since 2021 and have used it to build a variety of web applications, including this resume website. I am comfortable with React's component-based architecture and have experience in using popular libraries and frameworks such as Redux and React Router to build scalable and modular applications. Additionally, I am proficient in using React's JSX syntax to create efficient and maintainable UI code.</p>
             <div className='heading'>TypeScript</div>
-            <p className='tool-desc mb-3'>I am familiar with TypeScript and appreciate its ability to catch errors early in the development process, making it easier to debug and maintain code. I have used TypeScript for creating modular and scalable applications that can be extended with ease.</p>
+            <p className='tool-desc mb-3'>I am a huge fan of TypeScript and appreciate its ability to catch errors early in the development process, making it easier to debug and maintain code. I have used TypeScript for creating modular and scalable applications that can be extended with ease.</p>
+            <div className='heading'>Next.js</div>
+            <p className='tool-desc mb-3'>I have recently created two projects utilizing Next.js and have great familiarity with how SSR works along with optimizing client and server components.</p>
             <div className='heading'>JavaScript</div>
             <p className='tool-desc mb-3'> I have experience working with JavaScript to build interactive and dynamic web applications that enhance the user experience. I am familiar with popular JavaScript frameworks such as React and TypeScript, as well as libraries like jQuery and Highcharts. My proficiency in JavaScript allows me to work collaboratively with designers and backend developers to bring their ideas to life on the web.</p>
             <div className='heading'>HTML/CSS</div>
@@ -33,4 +35,3 @@ export default class Tools extends Component {
         </div>
     )
   }
-}

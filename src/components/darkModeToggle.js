@@ -4,7 +4,7 @@ import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 
 // This component represents the dark mode toggle button that changes the background color of the website
-function DarkModeToggle() {
+export default function DarkModeToggle() {
   // Set the initial state of dark mode to off
   const [isDarkModeOn, setIsDarkModeOn] = useState(true);
 
@@ -43,5 +43,3 @@ function DarkModeToggle() {
     </div>
   );
 }
-
-export default DarkModeToggle;

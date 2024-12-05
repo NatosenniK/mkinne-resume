@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class Skills extends Component {
-  render() {
+export default function Skills() {
+
     return (
       <div className='d-flex align-items-start'>
         <div className='col-12'>
@@ -10,10 +10,12 @@ export default class Skills extends Component {
                 <div className='skills-wrapper d-flex flex-wrap'>
                     <div className='skill'>ReactJS</div>
                     <div className='skill'>TypeScript</div>
+                    <div className='skill'>Next.js</div>
                     <div className='skill'>JavaScript</div>
                     <div className='skill'>API Integrations</div>
                     <div className='skill'>HTML</div>
                     <div className='skill'>CSS</div>
+                    <div className='skill'>Tailwind</div>
                     <div className='skill'>UX</div>
                     <div className='skill'>Material UI</div>
                     <div className='skill'>Java Spring Boot</div>
@@ -31,4 +33,3 @@ export default class Skills extends Component {
       </div>
     )
   }
-}

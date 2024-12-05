@@ -1,8 +1,8 @@
-import React, { Component } from 'react'
-import profilePicture from '../img/profile-picture.jpg';
+import React from 'react'
+import Github from './github';
 
-export default class Profile extends Component {
-  render() {
+export default function Profile() {
+
     return (
       <div className='row'>
         <div className='col-12 col-md-12 col-xl-4 mb-30-md-down'>
@@ -21,8 +21,8 @@ export default class Profile extends Component {
             </div>
           </div>
         </div>
+        <Github />
       </div>
 
     )
   }
-}

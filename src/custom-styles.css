@@ -99,6 +99,12 @@ body {
     transform: translateX(24px);
 }
 /* DARK MODE PILL BOX STYLES END */
+a {
+    text-decoration: none !important;
+}
+a .skill:hover {
+    background-color: var(--btn-color-hover);
+}
 .skill {
     padding: 10px 15px;
     border-radius: 25px;
